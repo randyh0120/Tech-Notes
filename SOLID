@@ -34,3 +34,9 @@ Tight Coupling:
     
 Loose Coupling:
     Offers a modular way to choose which details are involved in a particular operation.
+    
+Separation of Concern:
+    Programs should be separated into distinct sections, each addressing a separate concern, or set of information that affects the program.
+
+Relationship between classes represent coupling
+Coupling is Cohesion but between classes
