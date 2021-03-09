@@ -13,3 +13,9 @@ Ambient Context
 Service Locator
 
 Construciton and Constructor are the most useful (for most people) and that is what these notes will focus on.
+
+Application Layers:
+View -> UI Elements
+Presentation -> UI Logic
+Data Access -> Think API
+Data Store -> Think DB like AWS or GCP
