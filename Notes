@@ -4,3 +4,10 @@ The goal with DI is to have loosely coupled code.
 
 Why do we want Loosely Coupled Code?
 Bc is it easy to extend, easy to test, easy to maintain, and it facitilates parrelel development.
+
+Dependency Inject Patterns:
+Constructor Injection
+Property Injection
+Method Injection
+Ambient Context
+Service Locator
