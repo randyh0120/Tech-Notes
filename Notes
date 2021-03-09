@@ -7,6 +7,7 @@ Bc is it easy to extend, easy to test, easy to maintain, and it facitilates parr
 
 Dependency Inject Patterns:
 Constructor Injection
+    Creates Loosely Coupled Code
 Property Injection
 Method Injection
 Ambient Context
@@ -25,3 +26,9 @@ Model - View - ViewModel
 Model: Everything Else: meaning all other logic and db calls
 View: UI
 ViewModel: Presentation Logic
+
+Object Composition - Putting Loosely couples code together.
+
+SOLID Principles
+S: Single Responsibility Princible
+    Our Object should have one reson to change.
