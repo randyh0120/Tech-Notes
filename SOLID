@@ -1,7 +1,13 @@
-Solid
+SOLID
 S: Single Responsibility Principle (SRP)
 O: Open Close Principle (OCP)
 L: Liskov Substitution Principle (LSP)
 I: Interface Segregation Principle (ISP)
 D: Dependency Inversion Principle (DIP)
 
+When to use SOLID?
+You should use SOLID in a PDD Approach
+PDD - Pain Driven Development
+  Write your code using the simplest way you know how
+Avoid Premature Optimization
+If your current design is painful to work with, use the SOLID principles to guide redesign
