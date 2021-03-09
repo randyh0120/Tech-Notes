@@ -30,6 +30,13 @@ O: Open Close Principle (OCP)
     Closed to modification:
         Changes to source or biniary code are not required.
         The only way to change the behavior of code that is closed to extension is to change the code itself.
+    
+    Why should code be closed to modification?
+        Less likely to introduce bugs in code we don't touch or redeploy.
+        Less likely to break dependent code when we don't have to deploy updates.
+        Fewer conditionals in code that is open to extension in simpler code.
+        Easier to understand and test.
+        Bugs fixed are ok.
 L: Liskov Substitution Principle (LSP)
 I: Interface Segregation Principle (ISP)
 D: Dependency Inversion Principle (DIP)
