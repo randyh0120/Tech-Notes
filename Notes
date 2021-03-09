@@ -8,6 +8,7 @@ Bc is it easy to extend, easy to test, easy to maintain, and it facitilates parr
 Dependency Inject Patterns:
 Constructor Injection
     Creates Loosely Coupled Code
+    Forces a descision on a dependency. Requires you to specify a dependency.
 Property Injection
     Class property is inialized for standard behavior
     By default, the standard behavior is used
