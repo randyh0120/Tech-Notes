@@ -34,3 +34,6 @@ S: Single Responsibility Princible
     Our Object should have one reson to change.
 
 We can loosen a Coupling by using an interface
+
+Repository Pattern:
+Mediates between the domain and the data mapping layers using a collection-like interface for accessing domain objects. 
