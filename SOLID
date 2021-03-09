@@ -1,5 +1,22 @@
 SOLID
 S: Single Responsibility Principle (SRP)
+    Each software module should have one and only one reason to change
+    A module can refer to a class or a single function
+    One Purpose
+        Multipurpose tools don't perform as well as dedicated tools.
+        Dedicated tools are easier to use
+        A Problem with one part of a multipurpose tool can impact all parts
+    
+    What is a Responsibility?
+        It is the class or function's task or purpose.
+        It is to make sure that we model the business problem correctly.
+        
+    Reason to Change:
+        Each module should have one responsibility.
+        Responsibilities change at different times for different reasons.
+        Each responsibility is a another/different axis of change.
+            Axis of Change:
+                Each stakeholder has different requirements and responsibilities they want to integrate into the software.
 O: Open Close Principle (OCP)
 L: Liskov Substitution Principle (LSP)
 I: Interface Segregation Principle (ISP)
