@@ -45,4 +45,10 @@ Repository Pattern:
 Mediates between the domain and the data mapping layers using a collection-like interface for accessing domain objects. 
 We can utilize Repository Pattern by creating and using an interface so the view-model does not have to directly call function in the model.
 
+Tests:
+Tests should follow the naming convention: NameOfPropert_FunctionType_Action() --> Ex: People_OnRefreshPeople_IsPopulated()
 
+Tests should follow the Arrange, Act, Assert order
+Arrange: getting the model and view setup
+Act: Run the acction -> ex. RefreshPeople()
+Assert: Run the unit test ex. Assert.IsNotNull(viewModel.People); Assert.AreEqual(2, viewModel.People.Count());
