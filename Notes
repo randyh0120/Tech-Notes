@@ -19,3 +19,9 @@ View -> UI Elements
 Presentation -> UI Logic
 Data Access -> Think API
 Data Store -> Think DB like AWS or GCP
+
+MVVM
+Model - View - ViewModel
+Model: Everything Else: meaning all other logic and db calls
+View: UI
+ViewModel: Presentation Logic
