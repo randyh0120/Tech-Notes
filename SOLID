@@ -20,6 +20,16 @@ S: Single Responsibility Principle (SRP)
     
     SRP helps to create High Cohesion and Loose Coupling
 O: Open Close Principle (OCP)
+    Software entities (classes, modules, functions, etc.) should be opene for extension, but closed for modification.
+    It should be possible to change the behavior of a method without editing its source code.
+    
+    Open to extension:
+        New behavior can be added in the future.
+        Code that is closed to extension has fixed behavior.
+        
+    Closed to modification:
+        Changes to source or biniary code are not required.
+        The only way to change the behavior of code that is closed to extension is to change the code itself.
 L: Liskov Substitution Principle (LSP)
 I: Interface Segregation Principle (ISP)
 D: Dependency Inversion Principle (DIP)
