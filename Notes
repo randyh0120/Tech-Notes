@@ -37,5 +37,6 @@ We can loosen a Coupling by using an interface
 
 Repository Pattern:
 Mediates between the domain and the data mapping layers using a collection-like interface for accessing domain objects. 
-
 We can utilize Repository Pattern by creating and using an interface so the view-model does not have to directly call function in the model.
+
+
