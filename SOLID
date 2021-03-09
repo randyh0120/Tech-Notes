@@ -17,6 +17,8 @@ S: Single Responsibility Principle (SRP)
         Each responsibility is a another/different axis of change.
             Axis of Change:
                 Each stakeholder has different requirements and responsibilities they want to integrate into the software.
+    
+    SRP helps to create High Cohesion and Loose Coupling
 O: Open Close Principle (OCP)
 L: Liskov Substitution Principle (LSP)
 I: Interface Segregation Principle (ISP)
@@ -28,6 +30,7 @@ PDD - Pain Driven Development
   Write your code using the simplest way you know how
 Avoid Premature Optimization
 If your current design is painful to work with, use the SOLID principles to guide redesign
+Don't try to implement SOLID upfront, use them to eleminate pain and improve the software.
 
 Tight Coupling:
     Binds two (or more) details together in a way that's difficult to change.
@@ -40,3 +43,5 @@ Separation of Concern:
 
 Relationship between classes represent coupling
 Coupling is Cohesion but between classes
+
+Keep classes small, focused, and testable.
