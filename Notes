@@ -9,6 +9,9 @@ Dependency Inject Patterns:
 Constructor Injection
     Creates Loosely Coupled Code
 Property Injection
+    Class property is inialized for standard behavior
+    By default, the standard behavior is used
+    Property can be set to provide alternate behavior
 Method Injection
 Ambient Context
 Service Locator
