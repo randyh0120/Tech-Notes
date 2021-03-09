@@ -32,3 +32,5 @@ Object Composition - Putting Loosely couples code together.
 SOLID Principles
 S: Single Responsibility Princible
     Our Object should have one reson to change.
+
+We can loosen a Coupling by using an interface
