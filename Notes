@@ -11,3 +11,5 @@ Property Injection
 Method Injection
 Ambient Context
 Service Locator
+
+Construciton and Constructor are the most useful (for most people) and that is what these notes will focus on.
