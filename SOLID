@@ -28,3 +28,9 @@ PDD - Pain Driven Development
   Write your code using the simplest way you know how
 Avoid Premature Optimization
 If your current design is painful to work with, use the SOLID principles to guide redesign
+
+Tight Coupling:
+    Binds two (or more) details together in a way that's difficult to change.
+    
+Loose Coupling:
+    Offers a modular way to choose which details are involved in a particular operation.
