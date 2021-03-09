@@ -30,8 +30,14 @@ ViewModel: Presentation Logic
 Object Composition - Putting Loosely couples code together.
 
 SOLID Principles
-S: Single Responsibility Princible
+S: Single Responsibility Principle
     Our Object should have one reson to change.
+O: Open/Close Principle
+    Existing data readers can be extended without being modified.
+L: Liskov Substition Principle
+    Application can use the caching reader just like any other data reader.
+    Descending calsses should behave the same way as base classes behave.
+    Meaning that you can substitute a child class for a base class and the application (Calling Code) should not know the difference.
 
 We can loosen a Coupling by using an interface
 
