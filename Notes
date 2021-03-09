@@ -1,0 +1,6 @@
+What is Dependency Injection (AKA DI)?
+Dependency Injection is a set of software design principles and patterns that enable us to develop loosely coupled code.
+The goal with DI is to have loosely coupled code.
+
+Why do we want Loosely Coupled Code?
+Bc is it easy to extend, easy to test, easy to maintain, and it facitilates parrelel development.
