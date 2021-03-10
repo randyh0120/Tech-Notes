@@ -39,9 +39,22 @@ O: Open Close Principle (OCP)
         Bugs fixed are ok.
         
     Rules:
-    Start Concrete
-    Modify the code the first one or two times
-    By the third modification, consider making the code open to extension for that axis of change.
+        Start Concrete
+        Modify the code the first one or two times
+        By the third modification, consider making the code open to extension for that axis of change.
+    
+    Typical Approach
+        Passing parameters
+        Using Inheritance
+        Composition / Injection
+        
+    Use the "new" keyword to new up instances as less you can.
+    Use new class for new features
+        This way you can start from scratch and don't have to work around code.
+        Nothing in the current system depeneds in it.
+        Can add behavior without touching existing code.
+        Any new class that you create can follow SRP (Single Responsibility Principle.
+        Since you are designing it from scratch you can design it so that it is easily unit tested.
 L: Liskov Substitution Principle (LSP)
 I: Interface Segregation Principle (ISP)
 D: Dependency Inversion Principle (DIP)
