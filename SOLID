@@ -37,6 +37,11 @@ O: Open Close Principle (OCP)
         Fewer conditionals in code that is open to extension in simpler code.
         Easier to understand and test.
         Bugs fixed are ok.
+        
+    Rules:
+    Start Concrete
+    Modify the code the first one or two times
+    By the third modification, consider making the code open to extension for that axis of change.
 L: Liskov Substitution Principle (LSP)
 I: Interface Segregation Principle (ISP)
 D: Dependency Inversion Principle (DIP)
