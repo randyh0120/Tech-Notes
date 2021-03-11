@@ -80,6 +80,14 @@ L: Liskov Substitution Principle (LSP)
         NotImplementedExcemption
     
     Fixing LSP Violation
+        Follow the "Tell, Don't Ask" principle
+            Don't ask instances for their type, then conditionally perform different actions.
+            Instead encapsulate the logic in the type itself. Tell the instance to perform the action.
+        Minimize null checks with
+            C# (or your current programming language) features
+            Guard checks
+            Null Object design pattern
+        Follow ISP and be sure to fully implement interfaces.
 I: Interface Segregation Principle (ISP)
 D: Dependency Inversion Principle (DIP)
 
