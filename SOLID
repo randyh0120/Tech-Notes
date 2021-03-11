@@ -70,6 +70,8 @@ L: Liskov Substitution Principle (LSP)
         In terms of Geomtry, a sqaure "is a" rectangle. It has every a rectangle has, 
         but a rectangle can only be a square under one condition (that all sides are equal).
         That is inheritance.
+        
+    If you are using a rectangle as a square than you are violating LSP.
 I: Interface Segregation Principle (ISP)
 D: Dependency Inversion Principle (DIP)
 
