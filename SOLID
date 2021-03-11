@@ -98,6 +98,12 @@ L: Liskov Substitution Principle (LSP)
             Null checking
             NotImplementedExcpetion
 I: Interface Segregation Principle (ISP)
+    the Client should not be forced to depend on large methods when we only use a subset.
+    
+    A type's interface in this contextis whatever can be accessed by client code working with an instance of that type.
+    
+    What's a Client?
+        In this context, the client is the code that is interacting with an instance of the interface. It's the calling code.
 D: Dependency Inversion Principle (DIP)
 
 When to use SOLID?
