@@ -88,6 +88,15 @@ L: Liskov Substitution Principle (LSP)
             Guard checks
             Null Object design pattern
         Follow ISP and be sure to fully implement interfaces.
+    
+    Key Takeaways
+        "Is a" is not good enough for LSP you should be able to substitute without issues
+        Subtypes must be substitutable for their base types.
+        Ensure base types invarients are enforced.
+        Look for:
+            Type checking
+            Null checking
+            NotImplementedExcpetion
 I: Interface Segregation Principle (ISP)
 D: Dependency Inversion Principle (DIP)
 
