@@ -71,7 +71,15 @@ L: Liskov Substitution Principle (LSP)
         but a rectangle can only be a square under one condition (that all sides are equal).
         That is inheritance.
         
-    If you are using a rectangle as a square than you are violating LSP.
+    Violating LSP
+        If you are using a rectangle as a square than you are violating LSP.
+        Type checking with "is" or "as" in polymorphic code.
+            All subtypes should be substitutable
+        Null Checks
+            Nulls break polymorphism
+        NotImplementedExcemption
+    
+    Fixing LSP Violation
 I: Interface Segregation Principle (ISP)
 D: Dependency Inversion Principle (DIP)
 
