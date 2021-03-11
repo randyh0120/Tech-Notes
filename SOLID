@@ -56,6 +56,18 @@ O: Open Close Principle (OCP)
         Any new class that you create can follow SRP (Single Responsibility Principle.
         Since you are designing it from scratch you can design it so that it is easily unit tested.
 L: Liskov Substitution Principle (LSP)
+    Subtypes must be substitutable for their subtypes.
+    
+    Inheritance has a "Is a" relationship
+        An eagle "is a" bird
+    Properties exhibit a "Has a" relationship
+        An address "has a" city
+        
+    LSP states that the "Is a" relationship is insufficient and should be replaced with "Is Substitutable For"
+    For Example:
+        A rectangle has four side and four right angles.
+        A square has equal sides and four right angles.
+        
 I: Interface Segregation Principle (ISP)
 D: Dependency Inversion Principle (DIP)
 
