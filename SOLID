@@ -112,6 +112,10 @@ I: Interface Segregation Principle (ISP)
             Create a small , cohesive interface
             Use the adapter design pattern so your code can work with the adapter
         Clients should own and defien their interfaces
+        
+    Where do Interfaces live in our Apps?
+        Client code should define and own the interfaces it uses.
+        Interfaces should be declared where both client code and implementations can access it.
 D: Dependency Inversion Principle (DIP)
 
 When to use SOLID?
