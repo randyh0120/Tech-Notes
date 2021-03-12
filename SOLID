@@ -116,6 +116,13 @@ I: Interface Segregation Principle (ISP)
     Where do Interfaces live in our Apps?
         Client code should define and own the interfaces it uses.
         Interfaces should be declared where both client code and implementations can access it.
+        
+    Key Takeaways:
+        Prefer small, cohesive interfaces to large, expansive ones.
+        Following ISP helps with SRP and LSP
+        Break up large interfaces by using:
+            Interface inheritance
+            The adapter design pattern
 D: Dependency Inversion Principle (DIP)
 
 When to use SOLID?
