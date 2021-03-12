@@ -128,6 +128,31 @@ D: Dependency Inversion Principle (DIP)
     Abstractions should not depend on details.
     Details should depend on abstractions.
     
+    What is High Level?
+        More Abstract
+        Business rules
+        Process-oriented
+        Further from input/output (I/O)
+        
+    What is Low Level?
+        Closer to (I/O)
+        "Plumbing" Code
+        Interacts with specific external systems and hardware devices
+        
+    Whats an Abstraction?
+        Interfaces
+        Abstract base classes
+        Types you can't instantiate
+        
+    Abstractions shouldn't be coupled to details
+        Abstractipns decribe "what"
+            Send a message
+            Store a Customer record
+        
+        Details Specify "how"
+            Send an SMTP email over to port 25
+            Serialize Customer to JSON and store in a text file
+    
 
 When to use SOLID?
 You should use SOLID in a PDD Approach
