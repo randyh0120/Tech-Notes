@@ -104,6 +104,14 @@ I: Interface Segregation Principle (ISP)
     
     What's a Client?
         In this context, the client is the code that is interacting with an instance of the interface. It's the calling code.
+        
+    Fixing ISP Violations
+        Break up loarge interfaces into smaller ones
+            Compose fat interfaces from smaller ones for backward compatibility
+        To address loarge interfaces you don't control
+            Create a small , cohesive interface
+            Use the adapter design pattern so your code can work with the adapter
+        Clients should own and defien their interfaces
 D: Dependency Inversion Principle (DIP)
 
 When to use SOLID?
