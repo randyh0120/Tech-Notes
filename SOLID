@@ -152,6 +152,12 @@ D: Dependency Inversion Principle (DIP)
         Details Specify "how"
             Send an SMTP email over to port 25
             Serialize Customer to JSON and store in a text file
+            
+    New is Glue
+        Using the new keyword to create dependencies glues your code to that dependency
+        New isnt't bad - just bear in minf that coupling it creates
+            Do you need to specify the implementation?
+            Could you work with an abstraction instead?
     
 
 When to use SOLID?
