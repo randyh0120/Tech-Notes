@@ -124,6 +124,10 @@ I: Interface Segregation Principle (ISP)
             Interface inheritance
             The adapter design pattern
 D: Dependency Inversion Principle (DIP)
+    High level modules should not depend on low level modules. Both should depend on abstractions.
+    Abstractions should not depend on details.
+    Details should depend on abstractions.
+    
 
 When to use SOLID?
 You should use SOLID in a PDD Approach
