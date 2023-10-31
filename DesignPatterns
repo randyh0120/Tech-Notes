@@ -1,0 +1,10 @@
+Design patterns
+
+- Typical solutions to common problemsmin software design.
+- Each pattern is like a blueprint that you can customize to solve a particular design problem in your code.
+
+Creational patterns : Provide object creation mechanisms that increase flexibility and reuse of existing code.
+
+Structural patterns : Explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
+
+Behavioral patterns : Take care of effective communication and the assignment of responsibilities between objects.
